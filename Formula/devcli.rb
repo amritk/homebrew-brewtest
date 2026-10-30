@@ -1,27 +1,27 @@
 class Devcli < Formula
   desc "Homebrew test CLI"
   homepage "https://example.com"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/amritk/devcli-brewtest/releases/download/v0.1.0/devcli-darwin-arm64.tar.gz"
-      sha256 "617d5dc8ffe8bec187b799647ef2924a605ee49cc77820c0c05a53fddb3fbbf6"
+      url "https://github.com/amritk/devcli-brewtest/releases/download/v0.2.0/devcli-darwin-arm64.tar.gz"
+      sha256 "b798b962b4820b6ab35c12f309dcc630a6fc78f2bc37bcdb716f04474e5599b6"
     end
     on_intel do
-      url "https://github.com/amritk/devcli-brewtest/releases/download/v0.1.0/devcli-darwin-x64.tar.gz"
-      sha256 "845d48aa03777878a2aece084293c67f768c11743768411bcef50595f41af884"
+      url "https://github.com/amritk/devcli-brewtest/releases/download/v0.2.0/devcli-darwin-x64.tar.gz"
+      sha256 "a51cab61df34a5489f75b90a12e2c8d2dc4bab4add495bc52fa787ffec942a02"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/amritk/devcli-brewtest/releases/download/v0.1.0/devcli-linux-arm64.tar.gz"
-      sha256 "da3b6d9fad4ee3c91e4576703dce1973ba23db2d22513a329149d16bbf095c98"
+      url "https://github.com/amritk/devcli-brewtest/releases/download/v0.2.0/devcli-linux-arm64.tar.gz"
+      sha256 "ad78fef9a143f6f14af00f3d497a09a6313849ab50c2fbb37a47f21621df5f71"
     end
     on_intel do
-      url "https://github.com/amritk/devcli-brewtest/releases/download/v0.1.0/devcli-linux-x64.tar.gz"
-      sha256 "9ad2d5440bd437e117eb9e9796876c1d4d9965966ae9051a8797639f7b4fe8e0"
+      url "https://github.com/amritk/devcli-brewtest/releases/download/v0.2.0/devcli-linux-x64.tar.gz"
+      sha256 "8edb160f114e816ee69dee0d44c032be8de0c9aa4de54ae1e1d3115ae42e8731"
     end
   end
 
